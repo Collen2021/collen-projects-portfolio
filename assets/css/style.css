@@ -25,6 +25,10 @@ nav { display: flex; justify-content: space-between; align-items: center; paddin
 nav a { text-decoration: none; color: var(--text); }
 main { padding: 2rem 0 4rem; }
 .hero, .card, .panel, .skills-card, .contact-box { background: rgba(255,255,255,.06); border: 1px solid var(--border); border-radius: 1rem; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.hero-content { display: grid; grid-template-columns: 1.15fr .85fr; gap: 2rem; align-items: center; padding: 2rem 0 2.5rem; }
+.hero-text { font-size: 1.02rem; color: var(--muted); max-width: 680px; }
+.hero-image-wrap { display: flex; justify-content: center; }
+.hero-image { width: min(100%, 420px); aspect-ratio: 4 / 5; object-fit: cover; border-radius: 1.25rem; border: 1px solid var(--border); box-shadow: 0 16px 40px rgba(0,0,0,.25); }
 .section { padding: 2rem 0; }
 .section-alt { background: rgba(255,255,255,.03); }
 .section-heading { margin-bottom: 1.25rem; }
@@ -34,6 +38,11 @@ main { padding: 2rem 0 4rem; }
 .expertise-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .card-list { display: grid; gap: 1rem; }
+.card { display: flex; flex-direction: column; gap: .8rem; }
+.project-media { margin-bottom: .2rem; }
+.project-media img { width: 100%; height: 180px; object-fit: cover; border-radius: .85rem; border: 1px solid var(--border); }
+.showcase { display: grid; grid-template-columns: 1.05fr .95fr; gap: 1.5rem; align-items: center; }
+.showcase-media img { width: 100%; height: 320px; object-fit: cover; border-radius: 1rem; border: 1px solid var(--border); box-shadow: 0 14px 32px rgba(0,0,0,.22); }
 .card h3, .panel h3, .skills-card h3 { margin-top: 0; }
 .panel ul, .skills-card ul { padding-left: 1.2rem; margin: 0; display: grid; gap: .45rem; }
 .btn { display: inline-block; padding: 0.8rem 1rem; border-radius: 999px; text-decoration: none; font-weight: 600; margin-top: 0.8rem; }
@@ -41,5 +50,7 @@ main { padding: 2rem 0 4rem; }
 .muted { color: var(--muted); }
 footer { padding: 2rem 0 3rem; color: var(--muted); text-align: center; }
 @media (max-width: 860px) {
-  .about-grid, .expertise-grid, .card-grid { grid-template-columns: 1fr; }
+  .about-grid, .expertise-grid, .card-grid, .showcase, .hero-content { grid-template-columns: 1fr; }
+  .hero-content { padding-top: 1rem; }
+  .showcase-media img { height: 240px; }
 }
