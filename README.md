@@ -1,6 +1,6 @@
 # Project Portfolio
 
-This repository contains a multi-page personal portfolio website designed for GitHub Pages.
+This repository contains a multi-page personal portfolio website aout my projects and it is available via Github Pages
 
 ## Structure
 
