@@ -21,17 +21,25 @@ a { color: var(--accent); }
 .container { width: min(1120px, calc(100% - 2rem)); margin: 0 auto; }
 header { border-bottom: 1px solid var(--border); background: rgba(0,0,0,.2); }
 nav { display: flex; justify-content: space-between; align-items: center; padding: 1rem 0; }
-nav .links { display: flex; gap: 1rem; flex-wrap: wrap; }
+.nav-links { display: flex; gap: 1rem; flex-wrap: wrap; }
 nav a { text-decoration: none; color: var(--text); }
 main { padding: 2rem 0 4rem; }
-.hero, .card, .panel { background: rgba(255,255,255,.06); border: 1px solid var(--border); border-radius: 1rem; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
-.grid { display: grid; gap: 1rem; }
-.grid-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-.grid-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.hero, .card, .panel, .skills-card, .contact-box { background: rgba(255,255,255,.06); border: 1px solid var(--border); border-radius: 1rem; padding: 1.5rem; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.section { padding: 2rem 0; }
+.section-alt { background: rgba(255,255,255,.03); }
+.section-heading { margin-bottom: 1.25rem; }
+.section-heading h2 { font-size: clamp(1.4rem, 2vw, 2rem); margin: .3rem 0 0; }
+.eyebrow { text-transform: uppercase; letter-spacing: .18em; color: var(--accent); font-weight: 600; font-size: .78rem; margin-bottom: .35rem; }
+.about-grid { display: grid; grid-template-columns: 1.4fr .8fr; gap: 1.5rem; align-items: start; }
+.expertise-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.card-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
 .card-list { display: grid; gap: 1rem; }
+.card h3, .panel h3, .skills-card h3 { margin-top: 0; }
+.panel ul, .skills-card ul { padding-left: 1.2rem; margin: 0; display: grid; gap: .45rem; }
 .btn { display: inline-block; padding: 0.8rem 1rem; border-radius: 999px; text-decoration: none; font-weight: 600; margin-top: 0.8rem; }
 .btn-primary { background: linear-gradient(135deg, var(--accent), var(--accent-strong)); color: #04111f; }
 .muted { color: var(--muted); }
-ul { padding-left: 1.2rem; }
 footer { padding: 2rem 0 3rem; color: var(--muted); text-align: center; }
-@media (max-width: 860px) { .grid-2, .grid-3 { grid-template-columns: 1fr; } }
+@media (max-width: 860px) {
+  .about-grid, .expertise-grid, .card-grid { grid-template-columns: 1fr; }
+}
