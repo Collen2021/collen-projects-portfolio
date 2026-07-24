@@ -23,10 +23,17 @@ Throughout my career I have worked with:
 
 - Telecommunications (BSS/OSS)
 - Enterprise Software
+- Process Optimization
+- Robotic Process Automation
+- Applied GenAI
+- Applied Agentic AI
 - Digital Transformation
 - Cybersecurity Programs
 - Network Infrastructure
-- Inventory Management Systems
+- Network Inventory Management Systems
+- IT Asset Management Systems
+- Warehouse Inventory Management Systems
+- ERP Systems
 - Data Migration
 - Cloud Technologies
 - API Integrations
