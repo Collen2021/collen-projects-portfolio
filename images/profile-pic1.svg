@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Profile placeholder</title>
+  <desc id="desc">A simple circular profile illustration for the portfolio page.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#56c5ff" />
+      <stop offset="100%" stop-color="#2f7dff" />
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="200" fill="url(#bg)" />
+  <circle cx="200" cy="165" r="88" fill="#f8f1e7" />
+  <path d="M112 348c18-74 63-112 88-112s70 38 88 112" fill="#f8f1e7" />
+  <circle cx="180" cy="158" r="8" fill="#1f2937" />
+  <circle cx="220" cy="158" r="8" fill="#1f2937" />
+  <path d="M172 190c18 14 38 14 56 0" stroke="#1f2937" stroke-width="8" stroke-linecap="round" fill="none" />
+</svg>
