@@ -3,19 +3,14 @@
 This repository contains a multi-page personal portfolio website designed for GitHub Pages.
 
 ## Structure
-- index.html — Home page
-- about.html — About Me
-- projects.html — Projects overview
-- resume.html — Resume and documents
-- contact.html — Contact page
-- projects/ — Detailed project pages
-- assets/ — CSS, JavaScript, images, and documents
 
+```text
 project-portfolio/
-│
-├── index.html                 ← Home
-├── projects.html              ← Projects Overview
-├── resume.html                ← Resume
+├── index.html                     ← Home page
+├── about.html                     ← About Me
+├── projects.html                  ← Projects overview
+├── resume.html                    ← Resume and documents
+├── contact.html                   ← Contact page
 │
 ├── projects/
 │   ├── telecom-modernization.html
@@ -23,7 +18,7 @@ project-portfolio/
 │   ├── inventory-management.html
 │   ├── data-federation.html
 │   ├── security-lab.html
-│   └── ai-digital-transformation.html  
+│   └── ai-digital-transformation.html
 │
 ├── assets/
 │   ├── css/
@@ -36,6 +31,7 @@ project-portfolio/
 │       └── PMP_Certificate.pdf
 │
 └── README.md
+```
 
 ## Publish to GitHub Pages
 1. Commit and push the repository.
