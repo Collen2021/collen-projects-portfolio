@@ -125,7 +125,7 @@ Each project contains:
 - My Role
 - Responsibilities
 - Solution Overview
-- Technologies Used
+- Tools/Technologies Used
 - Methodology
 - Deliverables
 - Key Achievements
